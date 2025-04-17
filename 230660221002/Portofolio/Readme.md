@@ -11,19 +11,9 @@ Ini adalah proyek portofolio pribadi berbasis **HTML, CSS, dan JavaScript** yang
 - **Link Sosial Media** ke **LinkedIn** dan **YouTube**.
 
 ## 🛠️ Teknologi yang Digunakan
-- **HTML5** → Struktur halaman web
-- **CSS3** → Styling halaman web
+- **HTML** → Struktur halaman web
+- **CSS** → Styling halaman web
 - **JavaScript** → Interaksi mode gelap dan notifikasi
-
-## 📂 Struktur Folder
-```
-📁 portofolio-galih
-│── 📄 index.html  # Halaman utama portofolio
-│── 📄 README.md   # Dokumentasi proyek
-│── 📂 assets      # Folder untuk gambar, audio, dll.
-│   │── 📄 foto.jpg  # Foto profil
-│   │── 🎵 lagu.mp3  # Lagu favorit
-```
 
 ## 🚀 Cara Menjalankan
 1. **Download atau clone** repository ini:
@@ -33,7 +23,7 @@ Ini adalah proyek portofolio pribadi berbasis **HTML, CSS, dan JavaScript** yang
 2. **Buka file `index.html`** di browser favorit Anda.
 
 ## 🖼️ Tampilan Screenshot
-![Screenshot Portofolio]((https://github.com/230660221002/SI-IVA/blob/main/230660221002/Portofolio/Preview_Portofolio.jpg))
+![Screenshot Portofolio](https://github.com/230660221002/SI-IVA/blob/main/230660221002/Portofolio/Preview_Portofolio.jpg)
 
 ## 📌 Kontak
 - **LinkedIn:** [linkedin.com/in/galih-permana-sidik](https://www.linkedin.com/in/galih-permana-sidik/)
