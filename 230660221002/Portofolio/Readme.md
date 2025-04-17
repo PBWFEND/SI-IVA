@@ -33,7 +33,7 @@ Ini adalah proyek portofolio pribadi berbasis **HTML, CSS, dan JavaScript** yang
 2. **Buka file `index.html`** di browser favorit Anda.
 
 ## 🖼️ Tampilan Screenshot
-![Screenshot Portofolio](https://via.placeholder.com/800x400.png?text=Preview+Portofolio)
+![Screenshot Portofolio]((https://github.com/230660221002/SI-IVA/blob/main/230660221002/Portofolio/Preview_Portofolio.jpg))
 
 ## 📌 Kontak
 - **LinkedIn:** [linkedin.com/in/galih-permana-sidik](https://www.linkedin.com/in/galih-permana-sidik/)
