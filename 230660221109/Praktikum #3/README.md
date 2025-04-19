@@ -1,5 +1,6 @@
-NAMA : [ELANGGA YUDISTIRA]
-NPM  : [230660221109]
+Nama: [Elangga Yudistira]
+NPM: [230660221109]
+
 
 # Pemrograman Berbasis Web – Kumpulan Contoh HTML
 
@@ -54,4 +55,10 @@ Contoh penggunaan CSS untuk memformat tampilan teks dalam sebuah `div`.
 <div class="formatted-text">
   <p>Ini adalah contoh teks yang diformat dengan HTML dan CSS.</p>
 </div>
+```
+
+### 8. `88b51a4c-06c6-4950-a43f-2b3225bf9884.html`
+Menampilkan heading 1 dengan teks berwarna biru menggunakan CSS inline.
+```html
+<h1 style="color:blue;">Pemrograman Berbasis Web</h1>
 ```
