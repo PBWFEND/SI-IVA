@@ -1,2 +1,3 @@
-"Fajar SI IVA : Praktikum html" 
-"Heading, Paragraf, Colour, Qoutes, Formating html"
+"Fajar SI IVA :
+ Praktikum 1 berisi praket html, css, dan java" 
+
