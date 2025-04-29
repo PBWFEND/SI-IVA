@@ -1,0 +1,10 @@
+cd desktop
+desktop git clone https://github.com/230660221009/SI-IVA.git
+Cloning into 'PBWFEND/SI-IVA'
+remote: Enumerating objects: 31, done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 31 (delta 3), reused 30 (delta 2), pack-reused 0
+Unpacking objects: 100% (31/31), done.
+git branch <NIM_ANDA>
+git branch 230660221009
