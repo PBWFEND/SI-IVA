@@ -1,6 +1,6 @@
 # 📌 Portofolio Galih Permana Sidik
 
-Ini adalah proyek portofolio pribadi berbasis **HTML, CSS, dan JavaScript** yang menampilkan informasi tentang **Galih Permana Sidik**, seorang mahasiswa Sistem Informasi di Universitas Sebelas April Sumedang.
+Ini adalah proyek portofolio pribadi berbasis **HTML, CSS, dan JavaScript** yang menampilkan informasi tentang **Galih Permana Sidik**, Mahasiswa Sistem Informasi di Universitas Sebelas April Sumedang.
 
 ## ✨ Fitur
 - **Mode Gelap** 🌓 dengan tombol untuk mengaktifkan dan menonaktifkan.
@@ -18,9 +18,9 @@ Ini adalah proyek portofolio pribadi berbasis **HTML, CSS, dan JavaScript** yang
 ## 🚀 Cara Menjalankan
 1. **Download atau clone** repository ini:
    ```bash
-   git clone https://github.com/username/portofolio-galih.git
+   git clone https://github.com/PBWFEND/SI-IVA.git
    ```
-2. **Buka file `index.html`** di browser favorit Anda.
+2. **Buka folder Portofolio di 230660221002, kemudian pilih file `index.html`** di browser favorit Anda.
 
 ## 🖼️ Tampilan Screenshot
 ![Screenshot Portofolio](https://github.com/230660221002/SI-IVA/blob/main/230660221002/Portofolio/Preview_Portofolio.jpg)
