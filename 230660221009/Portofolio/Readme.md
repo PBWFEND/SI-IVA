@@ -33,7 +33,7 @@ Ini adalah proyek portofolio berbasis HTML, CSS, dan JavaScript yang dirancang u
 - JavaScript
 
 ✨ Screenshot Halaman Portofolio
-![(https://github.com/230660221009/SI-IVA/blob/main/230660221009/Portofolio/Preview-Portofolio.jpg)]
+![Preview Portofolio](https://github.com/230660221009/SI-IVA/raw/main/230660221009/Portofolio/Preview-Portofolio.jpg)
 
 📌 Catatan Tambahan
 Untuk pemutar audio bekerja dengan baik, file Coldplay - Viva La Vida.mp3 harus tersedia di direktori yang sama.
