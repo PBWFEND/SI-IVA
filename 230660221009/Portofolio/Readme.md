@@ -2,17 +2,6 @@
 
 Ini adalah proyek portofolio berbasis HTML, CSS, dan JavaScript yang dirancang untuk menampilkan profil, pengalaman proyek, hobi, serta karya multimedia seorang konten kreator IT.
 
-## 📁 Struktur Proyek
-
-/portofolio/
-│
-├── index.html # File utama HTML
-├── style.css # Gaya tampilan halaman
-├── foto.png # Gambar profil mahasiswa
-├── Preview-Portofolio # Tampilan halaman portofolio
-├── Coldplay - Viva La Vida.mp3 # Lagu favorit (opsional)
-└── README.md # Dokumentasi proyek
-
 ## 🌐 Fitur Utama
 
 - **Profil Mahasiswa**  
@@ -44,7 +33,7 @@ Ini adalah proyek portofolio berbasis HTML, CSS, dan JavaScript yang dirancang u
 - JavaScript
 
 ✨ Screenshot Halaman Portofolio
-(https://github.com/230660221009/SI-IVA/blob/main/230660221009/Portofolio/Preview-Portofolio.jpg)
+![(https://github.com/230660221009/SI-IVA/blob/main/230660221009/Portofolio/Preview-Portofolio.jpg)]
 
 📌 Catatan Tambahan
 Untuk pemutar audio bekerja dengan baik, file Coldplay - Viva La Vida.mp3 harus tersedia di direktori yang sama.
