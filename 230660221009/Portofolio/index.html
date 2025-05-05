@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio - Ade Yusup Maulana</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Judul Halaman -->
+        <h1 class="text-center">Portofolio - Ade Yusup Maulana</h1>
+
+        <!-- Gambar Profil -->
+        <div class="text-center">
+            <img src="foto.png" alt="Gambar Profil Mahasiswa" />
+        </div>
+
+        <!-- Tentang Saya -->
+        <h2 class="text-center">Tentang Saya</h2>
+        <p class="text-center">Saya adalah mahasiswa Teknik Informatika yang memiliki semangat tinggi dalam dunia pemrograman web, desain antarmuka, dan pengembangan aplikasi. Saya percaya bahwa teknologi adalah alat untuk menciptakan perubahan positif.</p>
+
+        <div class="text-center">
+            <blockquote id="quoteDisplay">Klik tombol di bawah untuk menampilkan quote inspiratif.</blockquote>
+            <button onclick="tampilkanQuote()">Tampilkan Quote</button>
+        </div>
+
+        <!-- Pengalaman Proyek -->
+<h2 class="text-center">Pengalaman Proyek</h2>
+<table>
+    <tr>
+        <th>Nama Proyek</th>
+        <th>Deskripsi</th>
+        <th>Tahun</th>
+    </tr>
+    <tr>
+        <td>Analisis Database Gojek</td>
+        <td>Menganalisis struktur database Gojek untuk optimasi query dan normalisasi data.</td>
+        <td>2024</td>
+    </tr>
+    <tr>
+        <td>SmartHome Comfort Live</td>
+        <td>Merancang dan mensimulasikan sistem rumah pintar menggunakan Cisco Packet Tracer.</td>
+        <td>2024</td>
+    </tr>
+</table>
+
+
+        <!-- Hobi -->
+        <h2>Hobi Saya</h2>
+        <ul>
+            <li>Diskusi teknologi dan komunitas IT</li>
+            <li>Desain UI/UX</li>
+        </ul>
+        <ol>
+            <li>Belajar bahasa pemrograman baru</li>
+            <li>Editing video tutorial</li>
+        </ol>
+
+        <!-- Audio -->
+        <h2 class="text-center">Lagu Favorit </h2>
+        <audio controls>
+            <source src="Coldplay - Viva La Vida.mp3" type="audio/mpeg" />
+            Browser Anda tidak mendukung pemutar audio.
+        </audio>
+
+        <!-- Embed Audio -->
+        <div class="audio-embed">
+            <iframe src="#" style="display:block; border-radius: 6px; border: none; height: 204px; width: 100%;"></iframe>
+        </div>
+        <!-- Video Karya -->
+        <h2 class="text-center">Video Karya Proyek</h2>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/dfeEpBVylRo?si=QOMU2RRFPDUN-qik" frameborder="0"
+            allowfullscreen></iframe>
+
+        <!-- Media Sosial -->
+        <h2 class="text-center">Terhubung dengan Saya</h2>
+        <p class="text-center">
+            <a href="https://www.instagram.com/ade_yusup_maulana" target="_blank">Instagram</a> |
+            <a href="https://www.tiktok.com/@ade_yusup_maulana" target="_blank">TikTok</a>
+        </p>
+        <!-- Footer -->
+        <footer>
+            &copy; 2024 Portofolio Mahasiswa. Dibuat dengan semangat belajar.
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        const quotes = [
+            "Belajar adalah investasi terbaik masa muda.",
+            "Setiap error adalah guru terbaik dalam koding.",
+            "Jangan takut gagal, takutlah untuk tidak mencoba.",
+            "Kembangkan dirimu setiap hari, walau hanya 1 baris kode."
+        ];
+
+        function tampilkanQuote() {
+            const index = Math.floor(Math.random() * quotes.length);
+            const quoteDisplay = document.getElementById("quoteDisplay");
+            quoteDisplay.innerText = quotes[index];
+            quoteDisplay.style.opacity = 0;
+            setTimeout(() => {
+                quoteDisplay.style.opacity = 1;
+                quoteDisplay.style.transition = "opacity 0.5s ease-in-out";
+            }, 100);
+        }
+
+        function togglePengalaman() {
+            const table = document.getElementById("pengalamanTambahan");
+            table.classList.toggle("hidden");
+        }
+    </script>
+</body>
+
+</html>
