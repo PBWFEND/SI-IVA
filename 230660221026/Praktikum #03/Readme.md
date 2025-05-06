@@ -17,7 +17,7 @@ Ini adalah proyek portofolio pribadi berbasis **HTML, CSS, dan JavaScript** yang
    ```bash
    git clone https://github.com/PBWFEND/SI-IVA.git
    ```
-2. **Buka folder Portofolio di 230660221026, kemudian pilih file `wendi.html`** di browser favorit Anda.
+2. **Buka folder Portofolio di 230660221026, kemudian pilih file `Modul.html`** di browser favorit Anda.
 
 
 ## 📌 Kontak
