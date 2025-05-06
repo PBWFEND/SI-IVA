@@ -21,7 +21,7 @@ Ini adalah proyek portofolio pribadi berbasis **HTML, CSS, dan JavaScript** yang
 
 
 ## 📌 Kontak
-- **LinkedIn:** [Instagram.com/@wenswenz27](https://www.instagram.com/wenswenz27)
+- **Instagram:** [Instagram.com/@wenswenz27](https://www.instagram.com/wenswenz27)
 - **YouTube:** [youtube.com/@Wf2795](https://www.youtube.com/@Wf2795)
 
 ---
