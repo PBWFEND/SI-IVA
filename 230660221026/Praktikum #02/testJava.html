@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hujan Bintang</title>
+  <style>
+    /* CSS untuk fullscreen canvas dan latar malam */
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: black;
+    }
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <!-- Canvas tempat menggambar bintang -->
+  <canvas id="starCanvas"></canvas>
+
+  <!-- JavaScript untuk animasi hujan bintang -->
+  <script>
+    const canvas = document.getElementById('starCanvas');
+    const ctx = canvas.getContext('2d');
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    });
+
+    class Star {
+      constructor() {
+        this.reset();
+      }
+
+      reset() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * -canvas.height;
+        this.radius = Math.random() * 2;
+        this.speed = 1 + Math.random() * 3;
+        this.alpha = 0.5 + Math.random() * 0.5;
+      }
+
+      update() {
+        this.y += this.speed;
+        if (this.y > canvas.height) {
+          this.reset();
+        }
+      }
+
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        ctx.lineTo(this.x, this.y);
+        ctx.fillStyle = `rgba(255, 255, 255, ${this.alpha})`;
+        ctx.lineWidth = this.radius;
+        ctx.fill();
+      }
+    }
+
+    const stars = [];
+    for (let i = 0; i < 150; i++) {
+      stars.push(new Star());
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (let star of stars) {
+        star.update();
+        star.draw();
+      }
+      requestAnimationFrame(animate);
+    }
+
+    animate();
+  </script>
+</body>
+</html>
