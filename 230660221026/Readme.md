@@ -1,1 +1,1 @@
-Nama  :Wendi Feriyanda 
+Hello Nama saya wendi Feriyanda 
