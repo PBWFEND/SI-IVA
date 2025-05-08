@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
   <title>Portfolio Website</title>
   <style>
     html {
@@ -55,7 +55,7 @@
         <button>Download CV</button>
       </div>
       <div class="image">
-        <img src="main.jpg" alt="Profile Picture" />
+        <img src="assets/image/main.jpg" alt="Profile Picture" />
       </div>
     </div>
   </section>
@@ -98,7 +98,7 @@
         <p>My creativity lies behind the lens—documenting life, emotions, and events with precision and artistry. Whether it's portraits, events, or short films, I focus on delivering content that resonates.</p>
       </div>
       <div class="image">
-        <img src="intro1.jpg" alt="Introduction Image" />
+        <img src="assets/image/intro1.jpg" alt="Introduction Image" />
       </div>
     </div>
   </section>
@@ -135,22 +135,63 @@
     </div>
   </section>
 
-  <section id="media">
-    <h2>My Media</h2>
-    <div>
-      <h3>Watch My Video</h3>
-      <iframe width="560" height="315" src="https://youtu.be/nXOfv4-tT9o?si=C5BiuB1-t6QTCc53" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="media-container">
+    <h2 class="media-title text-center">Media Saya</h2>
+    
+    <h3 class="track-title text-center">Of Serenity - Instrument</h3>
+    <p class="track-preview text-center">YYSFYN</p>
+    
+    <div class="row justify-content-center g-4">
+        <!-- Spotify Card -->
+        <div class="col-md-6">
+            <div class="card h-100 media-card">
+                <div class="card-body text-center">
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/track/0letVbC0vI1FeMgSWhMjHB?utm_source=generator"
+                        width="100%" height="200" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy">
+                    </iframe>
+                    <button class="spotify-btn">Save on Spotify</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- YouTube Card -->
+        <div class="col-md-6">
+            <div class="card h-100 media-card">
+                <div class="card-body text-center p-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="100%" height="200"
+                            src="https://www.youtube.com/embed/HQf8oG5HaGI?si=e724YxiXiHcz_Eab"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
-      <h3>Listen to My Music</h3>
-      <audio controls>
-        <source src="Coldplay - Adventure Of A Lifetime.mp3" type="audio/mp3" />
-        Your browser does not support the audio element.
-      </audio>
+    
+    <!-- Music Player Section -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-10">
+            <div class="card media-card">
+                <div class="card-body text-center">
+                    <h4 class="mb-3" style="color: #ffffff;">My Music</h4>
+                    <audio controls style="width: 100%;">
+                        <source src="assets/music/Coldplay - Adventure Of A Lifetime.mp3" type="audio/mp3" />
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
+</div>
 
-  <script src="script.js"></script>
+
+  <script src="assets/js/script.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({ offset: 0 });
