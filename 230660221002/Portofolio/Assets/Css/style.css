@@ -108,10 +108,12 @@ footer {
     border-radius: 5px;
 }
 
-.audio {
+audio {
     display: block;
     margin: 20px auto;
+    width: 300px;
 }
+
 
 /* Mode Gelap */
 .dark-mode {
