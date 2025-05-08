@@ -18,7 +18,7 @@ Ini adalah proyek portofolio pribadi berbasis **HTML, CSS, dan JavaScript** yang
 ## 🚀 Cara Menjalankan
 1. **Download atau clone** repository ini:
    ```bash
-   git clone https://github.com/username/portofolio-galih.git
+   git clone https://github.com/230660221002/SI-IVA.git
    ```
 2. **Buka file `index.html`** di browser favorit Anda.
 
