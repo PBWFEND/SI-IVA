@@ -9,8 +9,8 @@ function toggleDarkMode() {
     // Ubah teks tombol berdasarkan mode
     const button = document.querySelector(".toggle-button");
     if (body.classList.contains("dark-mode")) {
-        button.textContent = "☀️ Nonaktifkan Mode Gelap";
+        button.textContent = "Nonaktifkan Mode Gelap☀️ ";
     } else {
-        button.textContent = "🌙 Aktifkan Mode Gelap";
+        button.textContent = "Aktifkan Mode Gelap🌙 ";
     }
 }
