@@ -122,4 +122,38 @@ style
         width: 600px;
         margin: 20px auto;
     } 
-    
+    .dark-mode {
+        background-color: #121212;
+        color: #ffffff;
+    }
+
+    .dark-mode .container {
+        background: #1e1e1e;
+    }
+
+    .dark-mode h1, .dark-mode h2 {
+        color: #00a8ff;
+    }
+
+    .dark-mode blockquote {
+        background-color: #333;
+        border-left: 5px solid #00a8ff;
+    }
+
+    .dark-mode .card {
+        background: #292929;
+        color: white;
+    }
+
+    .dark-mode a {
+        color: #ffffff;
+    }
+
+    .dark-mode a:hover {
+        color: #00a8ff;
+    }
+
+    audio {
+        display: block;
+        margin: 20px auto;
+    }
