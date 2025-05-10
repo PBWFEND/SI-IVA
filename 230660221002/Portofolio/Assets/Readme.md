@@ -19,10 +19,6 @@ Ini adalah proyek portofolio pribadi berbasis **HTML, CSS, dan JavaScript** yang
 1. **Download atau clone** repository ini:
    ```bash
    git clone https://github.com/230660221002/SI-IVA.git
-
-   git clone https://github.com/PBWFEND/SI-IVA.git
->>>>>>> 1ff1f6eab51fe8ce88e29c44d816bf217b14a969:230660221002/Portofolio/Readme.md
-   ```
 2. **Buka folder Portofolio di 230660221002, kemudian pilih file `index.html`** di browser favorit Anda.
 
 ## 🖼️ Tampilan Screenshot
