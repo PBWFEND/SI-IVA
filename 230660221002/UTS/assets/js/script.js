@@ -1,12 +1,14 @@
 // Hide the loading screen after the page has finished loading
 document.addEventListener("DOMContentLoaded", function () {
+  const loader = document.getElementById("loading-screen");
 
-// Delay 1 second for animation
-  window.addEventListener("load", function () {
-    setTimeout(function () {
-      document.getElementById("loading-screen").style.display = "none";
-    }, 1000); 
-  });
+  // Add animation fade-out
+  loader.classList.add("fade-out");
+
+  // Remove the element after the animation is complete
+  setTimeout(() => {
+    loader.style.display = "none";
+  }, 500); // duration of the animation
 });
 
 //* darkmode toogle *//

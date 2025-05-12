@@ -119,6 +119,22 @@ blockquote {
         transform: translateX(0);
     }
 }
+/* animation fade-out */
+.fade-out {
+  animation: fadeOut 0.8s ease forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 /* project section starts */
 .heading small{
     color: #6f34fe;

@@ -19,18 +19,51 @@ project-UTS/                      # folder proyek portfolio
 
 ## 🚀 Fitur Utama
 
-- ✅ **Dark Mode Toggle**
-- ✅ **Loading Screen**
-- ✅ **Sticky Navigation**
-- ✅ **Circular Skill Progress Bar**
-- ✅ **Project Showcase Section**
-- ✅ **About Me Section**
-- ✅ **Download CV**
-- ✅ **Certificate Gallery (Grid Responsive)**
-- ✅ **Embed Media (YouTube, Spotify)**
-- ✅ **Interactive Contact Form**
-- ✅ **Modal Form 'Hire Me'**
-- ✅ **Back to Top Button**
+### ✅ Header / Navigasi&#x20;
+
+* 🔹 Menu navigasi **responsif** untuk desktop dan&#x20;
+* 🔹 Mendukung **smooth scrolling** ke setiap section saat klik menu
+
+### ✅ Hero Section&#x20;
+
+* 🔹 Menampilkan **foto profil profesional** (bulat, responsive)
+* 🔹 Menampilkan **nama & tagline**
+* 🔹 Terdapat **tautan sosial media** (GitHub, LinkedIn, WhatsApp)
+* 🔹 Menggunakan **CSS Animation** (float, AOS)
+
+### ✅ About Me Section&#x20;
+
+* 🔹 Berisi **deskripsi personal** yang jelas dan profesional
+* 🔹 Menampilkan **skill/progress bar circular interaktif** (HTML & CSS, JS, Microsoft, Cisco)
+
+### ✅ Portfolio Gallery&#x20;
+
+* 🔹 Menampilkan **grid responsif**  3 proyek dan 6 sertifikat
+* 🔹 Tersedia fitur **lightbox preview** pada gambar sertifikat
+
+### ✅ Fitur JavaScript&#x20;
+
+* ✅ **Dark/Light Mode Toggle**
+* ✅ **Form Kontak dengan Validasi**&#x20;
+* ✅ **Loading Screen Animation** saat halaman dimuat
+
+### ✅ Styling & Responsiveness&#x20;
+
+* ✅ Desain modern & profesional menggunakan **CSS Grid / Flexbox**
+* ✅ Mendukung berbagai perangkat dengan **media queries**
+* ✅ Memanfaatkan **transisi & animasi kustom CSS**
+* ✅ Konsistensi dalam **color scheme** (#fca61f dan #6f34fe) dan **tipografi** (Josefin Sans)
+
+### 🎯 Fitur tambahan
+
+* ✅ **Lazy Loading** diterapkan pada semua elemen gambar (`<img>`) dan iframe
+
+  * ℹ️ Gambar seperti foto profil tidak mengalami delay visual karena **berada di viewport sejak awal**, namun tetap menggunakan `loading="lazy"` sesuai standar HTML5.
+* 🟡 **Optimasi Performa**.
+
+---
+
+
 
 
 ## 🛠️ Teknologi yang Digunakan
