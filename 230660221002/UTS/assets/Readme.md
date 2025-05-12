@@ -3,31 +3,19 @@
 Ini adalah proyek portofolio pribadi yang dibangun dengan **HTML**, **CSS**, dan **JavaScript**, dirancang untuk menampilkan profil, keterampilan, pengalaman, serta menyediakan formulir kontak interaktif.
 
 ## 📁 Struktur Folder
-├── index.html # Halaman utama website
+```plaintext
+project-UTS/                      # folder proyek portfolio
+├── index.html                   # Halaman utama portfolio
 ├── assets/
-│ ├── css/ # File CSS (style.css)
-│ ├── js/ # File JavaScript (script.js)
-│ ├── images/ # Gambar-gambar yang digunakan
-│ ├── icons/ # Ikon pada project
-│ └── docs/ # Dokumen pendukung (CV & Sertifikat)
-
-project-UTS/            # folder proyek portfolio
-│
-├── index.html          # Halaman utama portfolio
-└── assets/
-    ├── css/            # File CSS 
-    │   ├── style.css  
-    ├── js/             # Logika utama (JavaScript)
-    │   └── script.js
-    ├── images/         # Seluruh aset visual
-    │   ├── profile/    # Foto profil & hero image
-    │   ├── projects/   # Screenshot proyek portfolio
-    │
-    ├── icons/          # Icon Proyek (PNG)
-    │
-    └── docs/           # Dokumen pendukung (CV dan sertifikat)
-    │
-    └── README.md       # Deskripsi proyek
+│   ├── css/                     # File CSS
+│   │   └── style.css
+│   ├── js/                      # Logika utama (JavaScript)
+│   │   └── script.js
+│   ├── images/                  # Foto profil dan Screenshot proyek portfolio
+│   ├── icons/                   # Icon Proyek (PNG)
+│   └── docs/                    # Dokumen pendukung (CV dan sertifikat)
+├── README.md                    # Deskripsi proyek
+```
 
 ## 🚀 Fitur Utama
 
