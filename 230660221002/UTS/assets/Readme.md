@@ -11,16 +11,39 @@ Ini adalah proyek portofolio pribadi yang dibangun dengan **HTML**, **CSS**, dan
 │ ├── icons/ # Ikon pada project
 │ └── docs/ # Dokumen pendukung (CV & Sertifikat)
 
+project-UTS/            # folder proyek portfolio
+│
+├── index.html          # Halaman utama portfolio
+└── assets/
+    ├── css/            # File CSS 
+    │   ├── style.css  
+    ├── js/             # Logika utama (JavaScript)
+    │   └── script.js
+    ├── images/         # Seluruh aset visual
+    │   ├── profile/    # Foto profil & hero image
+    │   ├── projects/   # Screenshot proyek portfolio
+    │
+    ├── icons/          # Icon Proyek (PNG)
+    │
+    └── docs/           # Dokumen pendukung (CV dan sertifikat)
+    │
+    └── README.md       # Deskripsi proyek
 
 ## 🚀 Fitur Utama
 
-- **Tema Gelap & Terang** (Dark Mode Toggle)
-- **Preloader/Loading Screen**
-- **Sticky Navbar** saat scroll
-- **Progress Skill Circular Bar** (HTML/CSS, JavaScript, Microsoft, Cisco)
-- **Formulir Kontak Dinamis** dengan validasi dasar
-- **Modal 'Hire Me'** untuk permintaan proyek
-- **Tombol Back to Top** untuk memudahkan ke halaman awal
+- ✅ **Dark Mode Toggle**
+- ✅ **Loading Screen**
+- ✅ **Sticky Navigation**
+- ✅ **Circular Skill Progress Bar**
+- ✅ **Project Showcase Section**
+- ✅ **About Me Section**
+- ✅ **Download CV**
+- ✅ **Certificate Gallery (Grid Responsive)**
+- ✅ **Embed Media (YouTube, Spotify)**
+- ✅ **Interactive Contact Form**
+- ✅ **Modal Form 'Hire Me'**
+- ✅ **Back to Top Button**
+
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -29,7 +52,7 @@ Ini adalah proyek portofolio pribadi yang dibangun dengan **HTML**, **CSS**, dan
 - JavaScript
 ## 📸 Preview Portofolio
 
-![Screenshot](assets/images/project.jpg)
+![Screenshot](https://github.com/230660221002/SI-IVA/blob/main/230660221002/UTS/assets/images/project.jpg)
 
 ## 📄 Cara Menggunakan
 
