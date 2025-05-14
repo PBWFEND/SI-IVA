@@ -14,6 +14,9 @@ Ini adalah proyek portofolio pribadi berbasis **HTML, CSS, dan JavaScript** yang
 - **Contack** untuk mengirim keluh kesah anda.
 - **Dark Mode** untuk menampilkan Mode gelap.
 - **progress bar** untuk menampilkan Kemampuan skill kita.
+- **Grid layout dengan minimal 6 proyek**
+- **Filter kategori menggunakan JavaScript**
+-**DLL**
 - **Link Sosial Media** ke **instagram** dan **YouTube**.
 
 ## 🛠️ Teknologi yang Digunakan
@@ -26,7 +29,7 @@ Ini adalah proyek portofolio pribadi berbasis **HTML, CSS, dan JavaScript** yang
    ```bash
    git clone https://github.com/PBWFEND/SI-IVA.git
    ```
-2. **Buka folder Uts di 230660221026, kemudian pilih file `UTS.html`** di browser favorit Anda.
+2. **Buka folder Uts di 230660221026, kemudian pilih file `index.html`** di browser favorit Anda.
 
 
 ## 📌 Kontak
