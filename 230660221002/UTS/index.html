@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Galih Permana Sidik</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+      <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #395c6d"
+          >Portofolio</a>
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav">
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificate">Certificate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#media">Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+    <button id="themeToggle" class="btn btn-dark" style="position: fixed; top: 10px; right: 10px; z-index: 1000;">🌙</button>
+        </div>
+   </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Galih Permana Sidik</span>
+          </h2>
+        <blockquote class="text-center">“You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.” — Dr. Seuss</blockquote>
+          <button id="hireMeBtn" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill" data-bs-toggle="modal" data-bs-target="#hireModal">
+            Hire Me
+          </button>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="assets/images/foto.jpg" class="img-fluid rounded-circle" alt="" loading="lazy" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- Project section starts -->
+    <section class="project mt-5" id="project">
+      <div class="heading text-center">
+        <h3>My Project</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="progress-card ms-3 ms-md-0">
+            <div class="img">
+              <img src="assets/icons/iot.png" class="w-25 img-fluid img" alt="" loading="lazy" />
+            </div>
+            <div class="content mt-3">
+              <h4>Smarthome Comfort Live</h4>
+              <p class="text-muted">
+                Smarthome system simulation project using Cisco Packet Tracer for smart home automation.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="progress-card ms-3 ms-md-0">
+            <div class="img">
+              <img src="assets/icons/research.png" class="w-25 img-fluid img" alt="" loading="lazy" />
+            </div>
+            <div class="content mt-3">
+              <h4>Tebak Gambar Research</h4>
+              <p class="text-muted">
+                An analysis of the effectiveness of a charades game in improving students' critical thinking skills using Nielsen modelling.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+         <div class="progress-card ms-3 ms-md-0">
+            <div class="img">
+              <img src="assets/icons/analisis.png" class="w-25 img-fluid img" alt="" loading="lazy" />
+            </div>
+            <div class="content mt-3">
+              <h4>GoJek Database Analysis</h4>
+              <p class="text-muted">
+                Analyzing and visualizing the GoJek database using PowerBI Designer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project section ends here -->
+
+    <!-- skill and about me section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">HTML & CSS</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress microsoft">
+                  <span class="progress-value microsoft-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Microsoft Office</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress cisco">
+                  <span class="progress-value cisco-progress">0%</span>
+                </div>
+                <br>
+                <span class="text">Cisco Packet Tracer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <h3>About Me</h3>
+            <p class="text-muted">
+              I'm a passionate and dedicated professional with a keen interest in technology 
+              and creative problem-solving. With a strong background in project management and a commitment to 
+              continuous learning, I strive to deliver innovative solutions and achieve excellence in every task. 
+              My goal is to make a positive impact through my work, always embracing challenges with determination 
+              and enthusiasm.
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                href="assets/docs/CV.pdf"
+                download="CV"
+                style="text-decoration: none;color: #fff;"
+                >Download CV</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- Certificate section starts here -->
+<section class="certificate" id="certificate">
+  <div class="heading text-center pt-5">
+    <h3>My Certificate</h3>
+  </div>
+  <div class="portfolio-body">
+    <div class="certificate-grid">
+      <div class="post" data-aos="fade-up">
+        <div class="card">
+          <img src="assets/docs/Adobe-llustrator.jpg" class="card-img-top" alt="Adobe Illustrator" loading="lazy" />
+          <div class="card-body text-center">
+            <h4 class="card-title">Adobe Illustrator</h4>
+          </div>
+        </div>
+      </div>
+      <div class="post" data-aos="fade-up">
+        <div class="card">
+          <img src="assets/docs/MS-Office.jpg" class="card-img-top" alt="Microsoft Office" loading="lazy" />
+          <div class="card-body text-center">
+            <h4 class="card-title">Microsoft Office</h4>
+          </div>
+        </div>
+      </div>
+      <div class="post" data-aos="fade-up">
+        <div class="card">
+          <img src="assets/docs/Technology for Emergencies.jpg" class="card-img-top" alt="T4E Unicef" loading="lazy"/>
+          <div class="card-body text-center">
+            <h4 class="card-title">T4E Unicef</h4>
+          </div>
+        </div>
+      </div>
+      <div class="post" data-aos="fade-up">
+        <div class="card">
+          <img src="assets/docs/LeadCore.png" class="card-img-top" alt="Lead Core" loading="lazy"/>
+          <div class="card-body text-center">
+            <h4 class="card-title">Lead Core</h4>
+          </div>
+        </div>
+      </div>
+      <div class="post" data-aos="fade-up">
+        <div class="card">
+          <img src="assets/docs/Full_Stack_Developer.jpg" class="card-img-top" alt="Full Stack Developer" loading="lazy"/>
+          <div class="card-body text-center">
+            <h4 class="card-title">Full Stack Developer</h4>
+          </div>
+        </div>
+      </div>
+      <div class="post" data-aos="fade-up">
+        <div class="card">
+          <img src="assets/docs/Webinar-MTI-UIN.jpg" class="card-img-top" alt="Webinar Nasional MTI" loading="lazy"/>
+          <div class="card-body text-center">
+            <h4 class="card-title">Webinar Nasional MTI</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Certificate section ends here -->
+
+
+   <!-- Media Section -->
+<section id="media" class="py-5 bg-light">
+<div class="heading text-center">
+<h3>My Media</h3>
+      </div>
+        <div class="row justify-content-center g-4">
+            <div class="col-lg-8">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <iframe style="border-radius:12px"
+                                    src="https://open.spotify.com/embed/track/3RiPr603aXAoi4GHyXx0uy?utm_source=generator"
+                                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                    loading="lazy">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center p-0">
+                                <div class="ratio ratio-16x9">
+                                    <iframe style="border-radius:6px; width: 100%; height: 393px;"
+                                    src="https://www.youtube.com/embed/SCfxVgtcDVs"
+                                    title="YouTube video player" frameborder=""
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                                    loading="lazy">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <h3>Contact Me</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>Sumedang, 45353, Indonesia</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+62 82128779114</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>230660221002@student.unsap.ac.id</p>
+            </div>
+          </div>
+        </div>
+      <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+      <form class="contact-form" id="contactForm">
+      <div class="mb-3">
+      <input type="text" class="form-control" id="name" placeholder="Name" />
+      </div>
+      <div class="mb-3">
+      <input type="email" class="form-control" id="email" placeholder="E-mail" />
+      </div>
+      <div class="mb-3">
+      <input type="text" class="form-control" id="mobile" placeholder="Mobile No." />
+      </div>
+      <div class="mb-3">
+      <textarea class="form-control" id="message" placeholder="Message" rows="5"></textarea>
+      </div>
+      <button type="submit" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+      Submit
+      </button>
+     </form>
+      </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#project">Project</a>
+        <div class="vr"></div>
+        <a href="#certificate">Certificate</a>
+        <div class="vr"></div>
+        <a href="#media">Media</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+     <div class="social-links mt-5" data-aos="fade-up">
+    <button onclick="window.open('https://github.com/230660221002', '_blank')" class="social-btn rounded-pill github">
+        <i class="bi bi-github"></i>
+    </button>
+    <button onclick="window.open('https://wa.me/6282128779114', '_blank')" class="social-btn rounded-pill whatsapp">
+        <i class="bi bi-whatsapp"></i>
+    </button>
+    <button onclick="window.open('https://www.linkedin.com/in/galih-permana-sidik', '_blank')" class="social-btn rounded-pill linkedin">
+        <i class="bi bi-linkedin"></i>
+    </button>
+</div>
+
+
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2025 Galih Permana Sidik | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+    <!-- Hire Me Modal -->
+    <div class="modal fade" id="hireModal" tabindex="-1" aria-labelledby="hireModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="hireModalLabel">Hire Me</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Please fill out the form below to contact me about a job or collaboration project.</p>
+                    <form id="hireForm">
+                        <div class="mb-3">
+                            <label for="hireName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="hireName" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="hireEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="hireEmail" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="hireProject" class="form-label">Project Type</label>
+                            <select class="form-select" id="hireProject">
+                                <option value="">Choose Project Type</option>
+                                <option value="web">Network Configuration</option>
+                                <option value="app">Software Develpoment</option>
+                                <option value="design">UI/UX Design</option>
+                                <option value="other">Others</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                    <button type="submit" form="hireForm" class="btn btn-warning">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="assets/js/script.js"></script>
+    
+  </body>
+</html>
