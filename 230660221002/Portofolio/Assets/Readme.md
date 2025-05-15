@@ -18,12 +18,11 @@ Ini adalah proyek portofolio pribadi berbasis **HTML, CSS, dan JavaScript** yang
 ## 🚀 Cara Menjalankan
 1. **Download atau clone** repository ini:
    ```bash
-   git clone https://github.com/PBWFEND/SI-IVA.git
-   ```
+   git clone https://github.com/230660221002/SI-IVA.git
 2. **Buka folder Portofolio di 230660221002, kemudian pilih file `index.html`** di browser favorit Anda.
 
 ## 🖼️ Tampilan Screenshot
-![Screenshot Portofolio](https://github.com/230660221002/SI-IVA/blob/main/230660221002/Portofolio/Preview_Portofolio.jpg)
+![Screenshot Portofolio](https://github.com/230660221002/SI-IVA/blob/main/230660221002/Portofolio/Assets/Images/Preview_Portofolio.jpg)
 
 ## 📌 Kontak
 - **LinkedIn:** [linkedin.com/in/galih-permana-sidik](https://www.linkedin.com/in/galih-permana-sidik/)
