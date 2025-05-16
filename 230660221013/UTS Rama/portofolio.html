@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rama - Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preload" as="image" href="image/profil.jpg">
+</head>
+<body>
+    <div id="loader" class="loader"></div>
+
+    <div class="container" style="display:none;">
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <div class="logo">Rama</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="toggle-mode">🌙</button></li>
+            </ul>
+        </nav>
+
+        <!-- HERO SECTION -->
+        <header class="hero" id="hero">
+            <div class="intro">
+                <img src="image/profil.jpg" alt="Profil" class="hero-img" loading="lazy" />
+                <h1>Rama Aulia</h1>
+                <h2>I design and code beautifully simple things</h2>
+                <div class="social-links">
+                    <a href="#"><img src="assets/icons/instagram.svg" alt="Instagram" /></a>
+                    <a href="#"><img src="assets/icons/linkedin.svg" alt="LinkedIn" /></a>
+                </div>
+                <button id="order-btn">Order Now</button>
+            </div>
+        </header>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about">
+            <h3>About Me</h3>
+            <p>A passionate graphic designer and front-end developer who loves creating impactful designs.</p>
+            <div class="skills">
+                <label>Design</label>
+                <div class="bar"><div class="progress" style="width:80%"></div><span>80%</span></div>
+                <label>Development</label>
+                <div class="bar"><div class="progress" style="width:60%"></div><span>60%</span></div>
+            </div>
+            <div class="education">
+                <h4>Education</h4>
+                <ul>
+                    <li><strong>2022 - Now:</strong> S1 Information Systems, Universitas Indonesia</li>
+                    <li><strong>2019 - 2022:</strong> SMAN 1 Jakarta</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO SECTION -->
+        <section id="portfolio" class="portfolio">
+            <h3>Portfolio</h3>
+            <div class="filters">
+                <span class="active" data-filter="all">All</span>
+                <span data-filter="web">Web</span>
+                <span data-filter="app">App</span>
+            </div>
+            <div class="grid">
+                <div class="item" data-category="web"><img src="image/proyek1.jpg" alt="Project 1" loading="lazy"></div>
+                <div class="item" data-category="app"><img src="image/proyek2.jpg" alt="Project 2" loading="lazy"></div>
+                <div class="item" data-category="web"><img src="image/proyek3.jpg" alt="Project 3" loading="lazy"></div>
+                <div class="item" data-category="app"><img src="image/proyek4.jpg" alt="Project 4" loading="lazy"></div>
+                <div class="item" data-category="web"><img src="image/proyek5.jpg" alt="Project 5" loading="lazy"></div>
+                <div class="item" data-category="app"><img src="image/proyek6.jpg" alt="Project 6" loading="lazy"></div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact">
+            <h3>Contact</h3>
+            <p>Want to work with me? Feel free to send a message.</p>
+            <button id="order-btn-2">Order Now</button>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>&copy; 2025 Rama Aulia. All rights reserved.</p>
+        </footer>
+
+        <!-- MODAL ORDER FORM -->
+        <div id="order-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Order Request</h3>
+                <form id="order-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Request" required></textarea>
+                    <button type="submit">Submit Order</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
