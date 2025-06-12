@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="light-mode">
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Portfolio</a>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hola! My Name <span>Yoga Triadi A.P </span></h1>
+                <h2 class="hero-subtitle">Technology Informatics</h2>
+                <p class="hero-description">Student of University Sebelas April Sumedang.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Hobby</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/img/yogatap.jpeg" alt="Profile Photo" loading="lazy">
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/yogatap/SI-IVA"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/yoga-triadi-a-p-a02ab932b/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/yogatappp_?igsh=MWR2M3Brd2EydTh0aw=="><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p>I am a 4th semester student at Sebelas April University Sumedang, Faculty of Informatics Technology, Information Systems Study Program. I entered this faculty because I want to develop technological knowledge with the knowledge I have, namely in the field of sports. </p>
+                    <p>My goal is to increase knowledge in the world of technology because I have an interest in technology and modernization.</p>
+                </div>
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress html"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress js"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Java Script</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress react"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node.js</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress node"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="education">
+                <h3>Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2017 - 2020</div>
+                        <div class="timeline-content">
+                            <h4>Senior High School</h4>
+                            <p>SMA Negeri 2 Sumedang</p>
+                            <p>April 11th Street, km 3, Sumedang, April 11th Street, Rancamulya, North Sumedang District, Sumedang Regency, West Java 45621</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2014 - 2017</div>
+                        <div class="timeline-content">
+                            <h4>Junior High School</h4>
+                            <p>SMP Negeri 2 Sumedang</p>
+                            <p>At 5W78+575, Jl. Parigi Lama Karapyak By. Pass, Situ, Kec. North Sumedang, Sumedang Regency, West Java 4562</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2009 - 2014</div>
+                        <div class="timeline-content">
+                            <h4> Elementary School</h4>
+                            <p>SD Negeri Jatihurip</p>
+                            <p>At 5WQF+54C, Jatihurip, North Sumedang District, Sumedang Regency, West Java 45352</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My <span>Hobby</span></h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Sport</button>
+                <button class="filter-btn" data-filter="app">Gaming</button>
+                <button class="filter-btn" data-filter="graphic">Music</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <img src="assets/img/bola.jpeg" alt="Project 1" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Sport</h3>
+                        <p>Football</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="assets/img/valorant.jpeg" alt="Project 2" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Gaming</h3>
+                        <p>Valo</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="assets/img/futsal.jpeg" alt="Project 3" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Sport</h3>
+                        <p>Futsal</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="graphic">
+                    <img src="assets/img/band.jpeg" alt="Project 4" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Music</h3>
+                        <p>Band</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="assets/img/ml.jpeg" alt="Project 5" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Gaming</h3>
+                        <p>Mobile Legend</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="assets/img/bl.jpeg" alt="Project 6" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Sport</h3>
+                        <p>Billiard</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img src="" alt="" class="lightbox-image">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>yogatap7@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+62 82117155417</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Sumedang, Jawa Barat, Indonesia</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="www.linkedin.com/in/yoga-triadi-a-p-a02ab932b/"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="www.instgaram.com/aa_izqi/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

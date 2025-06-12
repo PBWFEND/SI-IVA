@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Billy Apandisastra</title>
+   <link rel="icon"  img src="portofolio/assets/images/logo/logo.png" alt="Logo Website" class="logo">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-bs-theme="light">
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="logo-text">My Portfolio</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="ms-3">
+                    <button id="themeToggle" class="btn btn-sm btn-outline-secondary">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title">Hi, Saya <span class="text-primary">Billy Apandisastra</span></h1>
+                    <h2 class="hero-subtitle">Mahasiswa</h2>
+                    <p class="hero-text">Siste Informasi</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary me-2">Project Saya</a>
+                        <a href="#contact" class="btn btn-outline-secondary">Contact Me</a>
+                    </div>
+                    <div class="social-links mt-4">
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image-wrapper">
+                        <img src="C:\Users\hilma\OneDrive\Desktop\SI-IVA\230660221112\portofolio\assets\images\profile\profile.jpg" alt="Profile Picture" class="hero-image img-fluid" loading="lazy">
+                        <div class="hero-image-bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="C:\Users\hilma\OneDrive\Desktop\SI-IVA\230660221112\portofolio\assets\images\about me\About Me.png" alt="About Me" class="img-fluid rounded" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h3>My Background</h3>
+                        <p>Perkenalkan, saya Billy Apandisastra, seorang mahasiswa yang saat ini tengah menempuh semester 4. Masa perkuliahan ini menjadi babak yang menarik dalam perjalanan saya, di mana ketertarikan saya terhadap dunia teknologi semakin menguat, dan saya saat ini sedang mempelajari Pemrograma Berbasis Web Front End untuk terus mengembangkan diri dan mengasah kemampuan di bidang ini.</p>
+                        
+                        <div class="about-details">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p><strong>Name:</strong> Billy Apandisastra</p>
+                                    <p><strong>Email:</strong> billyapandisastra009@gmail.com</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p><strong>Location:</strong> Sumedang, Jawa Barat</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="education-timeline mt-4">
+                            <h4>Pendidikan</h4>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-date">2023 - sekarang</div>
+                                    <div class="timeline-content">
+                                        <h5>Univesitas sebelas April
+                                        <p>Fakultas Teknologi Informasi
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-subtitle"></p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML5</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>CSS3</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node.js</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>UI/UX Design</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Project</h2>
+                <p class="section-subtitle"></p>
+            </div>
+            
+            <div class="portfolio-filter mb-5">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+            </div>
+            
+            <div class="row portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Project 1" class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h5>E-commerce Website</h5>
+                            <p>Web Design</p>
+                            <a href="#" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 2 -->
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="app">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Project 2" class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h5>Mobile Banking App</h5>
+                            <p>App Development</p>
+                            <a href="#" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 3 -->
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="ui">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Project 3" class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h5>Dashboard UI</h5>
+                            <p>UI/UX Design</p>
+                            <a href="#" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 4 -->
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1636&q=80" alt="Project 4" class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h5>Corporate Website</h5>
+                            <p>Web Design</p>
+                            <a href="#" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 5 -->
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="app">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Project 5" class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h5>Fitness Tracker App</h5>
+                            <p>App Development</p>
+                            <a href="#" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 6 -->
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="ui">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Project 6" class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h5>Mobile App UI</h5>
+                            <p>UI/UX Design</p>
+                            <a href="#" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Modals -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">E-commerce Website</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Project 1" class="img-fluid mb-4" loading="lazy">
+                    <p>This e-commerce website was built with React, Node.js, and MongoDB. It features product listings, shopping cart functionality, user authentication, and payment integration.</p>
+                    <p><strong>Technologies:</strong> React, Node.js, Express, MongoDB, Stripe API</p>
+                    <p><strong>Client:</strong> Fashion Retail Company</p>
+                    <p><strong>Year:</strong> 2022</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-outline-secondary">Visit Website</a>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 2 -->
+    <div class="modal fade" id="portfolioModal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mobile Banking App</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Project 2" class="img-fluid mb-4" loading="lazy">
+                    <p>A secure mobile banking application developed with React Native for both iOS and Android platforms. The app includes features like account management, fund transfers, bill payments, and biometric authentication.</p>
+                    <p><strong>Technologies:</strong> React Native, Redux, Firebase, Node.js</p>
+                    <p><strong>Client:</strong> National Bank</p>
+                    <p><strong>Year:</strong> 2021</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-outline-secondary">View on App Store</a>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Other modals would follow the same pattern -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Location</h5>
+                                <p>Sumedang, Jawa Barat</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Email</h5>
+                                <p>billyapandisastra009.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Phone</h5>
+                                <p>+62 8199 9044 763</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links mt-5">
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <form id="contactForm" class="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            <div class="invalid-feedback">Please enter your name.</div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                            <div class="invalid-feedback">Please enter a valid email.</div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                            <div class="invalid-feedback">Please enter a subject.</div>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                            <div class="invalid-feedback">Please enter your message.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">Portfolio</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#portfolio">Project</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy; 2025 Billy Apandisastra. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
