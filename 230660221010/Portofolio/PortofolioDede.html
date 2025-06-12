@@ -136,6 +136,32 @@
             margin: 20px auto;
         }
     </style>
+    <script>
+        // Fungsi untuk menghasilkan warna acak
+        function generateRandomColor() {
+            var randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+            return randomColor;
+        }
+        // Mengubah warna latar belakang halaman secara acak
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = generateRandomColor();
+        }
+        // Menampilkan pesan sambutan
+    function showWelcomeMessage() {
+        alert("Selamat datang di portofolio saya! Saya adalah seorang pengembang web yang penuh semangat.");
+    }
+
+    window.onload = function() {
+        changeBackgroundColor();
+        showWelcomeMessage(); // Panggil fungsi pesan sambutan
+        displayProjects();
+        displayExperience();
+    }
+        // Memanggil fungsi changeBackgroundColor saat halaman dimuat ulang
+        window.onload = function() {
+            changeBackgroundColor();
+        };
+    </script>
 </head>
 
 <body>
@@ -204,7 +230,7 @@
         <h2 class="text-center">Ikuti Saya</h>
             <p class="text-center">
                 <a href="https://www.instagram.com/dededian_155?igsh=ejZrZDRnem9ldnBo" target="_blank">Instagram</a> |
-                <a href="https://www.linkedin.com/in/username" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/dede-dian-permana-42025030b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
             </p>
     
             <!-- Footer -->

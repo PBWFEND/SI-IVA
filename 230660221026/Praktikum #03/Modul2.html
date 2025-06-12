@@ -6,19 +6,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio Wendi</title>
-    <link rel="stylesheet" href="wendi.css"> <!-- Link ke file CSS -->
-     
+    <link rel="stylesheet" href="Asset/CSS/wendi.css"> <!-- Link ke file CSS -->
+    <script src="Asset/JS/wendi.js"></script>
 </head>
 
-<body>
+<body onload="welcomeMessage">
+     <!-- Tombol Mode Gelap -->
+     
     <div class="container">
         <!-- Judul Halaman -->
-
+        <button class="toggle-button" onclick="toggleDarkMode()">🌙 Aktifkan Mode Gelap</button>
         <h1 align="center" >Portofolio</h1> 
 <h2 align="center">Wendi Feriyanda</h2>
         <!-- Gambar Profil -->
         <div align="center" >
-            <img src="wendi.jpg"
+            <img src="Asset/foto/wendi.jpg"
                 alt="Gambar Profil">
                 
         </div>
@@ -33,7 +35,7 @@
 
         <!-- Pengalaman Kerja -->
         <h2 class="text-center">Pengalaman Kerja</h2>
-        <table>
+        <table >
             <tr>
                 <th>Posisi</th>
                 <th>Perusahaan</th>
@@ -63,7 +65,7 @@
         <!-- Audio -->
         <h2 class="text-center">Lagu Favorit</h2>
         <audio controls>
-            <source src="salsa bintan.mp3" type="audio/mpeg">
+            <source src="Asset/lagu/salsa bintan.mp3" type="audio/mpeg">
             Browser Anda tidak mendukung pemutar audio.
         </audio>
 
@@ -92,6 +94,9 @@
             &copy; 2025 Portofolio Wendi Feriyanda. Semua hak dilindungi.
         </footer>
     </div>
+
+    
+    
 </body>
 
 </html>
