@@ -1,158 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Website</title>
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Pribadi</title>
+    <link rel="stylesheet" href="assets/css/custom.css"> <!-- Menghubungkan CSS -->
+    <script src="assets/js/script.js" defer></script> <!-- Menghubungkan JavaScript -->
 </head>
 <body>
-  <div class="theme-toggle">
-    <i class='bx bx-sun' id="theme-icon"></i>
-  </div>
+    <div class="container">
+        <h1 class="text-center">Portofolio Pribadi</h1>
+        <div class="text-center">
+            <img src="assets/images/profile/gambar.jpg" alt="Gambar Profil">
+             <!-- Tombol Ganti Mode -->
+        <div class="text-center">
+            <button id="toggleModeBtn">🌞 Mode Terang</button>
+        </div>
 
-  <nav>
-    <a href="#" class="logo"><span>Amelia</span></a>
+        <h2 class="text-center">Tentang Saya</h2>
+        <p class="text-center">Selamat datang di portofolio saya! Saya adalah seorang yang disiplin akan waktu dan suka hal baru.</p>
+        <blockquote class="text-center">
+            Kita hidup di era di mana teknologi membentuk masa depan setiap hari.
+            Melalui desain, analisis, dan pemrograman, 
+            saya berusaha menjadi bagian dari perubahan itu. 
+            Karena masa depan tidak menunggu—ia sedang dibangun sekarang.
+        </blockquote>
 
-    <ul class="links">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#media">Media</a>
-      <a href="#contact">Contact</a>
-    </ul>
+        <!-- Pengalaman Kerja -->
+        <h2 class="text-center">Pengalaman Kerja</h2>
+        <table>
+            <tr>
+                <th>Posisi</th>
+                <th>Perusahaan</th>
+                <th>Tahun</th>
+            </tr>
+            <tr>
+                <td> PKL Pelayanan Umum</td>
+                <td> Desa Padasari </td>
+                <td> 2023 </td>
+            </tr>
+        </table>
 
-    <i class='bx bx-menu-alt-right' id="menu"></i>
-
-    <a href="#contact" class="btn">Contact Me</a>
-  </nav>
-  
-  <section id="home">
-    <img src="Amelia.jpg" alt="Profile Picture">
-
-    <div class="info-box">
-      <h1><span>Hello, I'm Amelia Putri Latifah</span></h1>
-      <h3><span>Student</span> based in Sumedang</h3>
-      <p>4th semester student of Information System Study Program, Faculty of Information Technology at Sebelas April Sumedang</p>
-    </div>
-
-    <div class="btn-box">
-      <div class="btn">Hire</div>
-      <div class="btn">Contact Me</div>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="about-box">
-      <div class="about-info">
-        <h1><span>About Me</span></h1>
-        <p>I am a 4th semester student of Information System Study Program, Faculty of Information Technology, at Sebelas April University Sumedang. Skill that I have:</p>
-      </div>
-
-      <h2><span>Skills</span></h2>
-
-      <div class="skills">
+        <!-- Hobi -->
+        <h2>Hobi Saya</h2>
         <ul>
-          <li>
-            <span><i class='bx bx-chevron-right'></i> Visual Editing </span>
-          </li>
-          <li>
-            <span><i class='bx bx-chevron-right'></i> Copywriting </span>
-          </li>
-          <li>
-            <span><i class='bx bx-chevron-right'></i> Desain UI/UX </span>
-          </li>
-          <li>
-            <span><i class='bx bx-chevron-right'></i> Programming </span>
-          </li>
+            <li>Game</li>
+            <li>Olahraga</li>
         </ul>
-      </div>
+        <ol>
+            <li>E-football</li>
+            <li>Badminton</li>
+        </ol>
+
+        <h2 class="text-center">Lagu Favorit</h2>
+        <audio controls>
+            <source src="assets/media/Music.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung pemutar audio.
+        </audio>
+
+        <h2 class="text-center">Video Karya</h2>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/S4iXMP-CKK0?si=4zHyw8cjVbFBGrPx" frameborder="0" allowfullscreen></iframe>
+
+        <h2 class="text-center">Ikuti Saya</h2>
+        <p class="text-center">
+            <a href="https://www.instagram.com/dededian_155" target="_blank">Instagram</a> |
+            <a href="https://www.linkedin.com/in/dede-dian-permana-42025030b" target="_blank">LinkedIn</a>
+        </p>
+
+        <footer>&copy; 2024 Portofolio Pribadi. Semua hak dilindungi.</footer>
     </div>
-
-    <img src="Amelia.jpg" alt="About Picture">
-  </section>
-
-  <section id="media">
-    <h1 class="header"><span>Media</span></h1>
-
-    <div class="media-container">
-      <div class="box">
-        <h1><span>YouTube Playlist</span></h1>
-        <p>Watch my suggested YouTube playlist</p>
-        <div class="playlist-embed">
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PL5hrGMysD_GteVJ_ls48QgNdsl8CtSZrZ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="box">
-        <h1><span>Spotify Playlist</span></h1>
-        <p>Listen to my suggested Spotify playlist</p>
-        <div class="playlist-embed">
-          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1PLL6jWdaSZ1WATJHINALP?utm_source=generator" width="100%" height="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h1 class="header"><span>Contact</span></h1>
-
-    <form action="#">
-      <div class="input-box">
-        <span>Full Name</span>
-        <input type="text" placeholder="Enter Your Full Name">
-      </div>
-
-      <div class="input-box">
-        <span>Your Email</span>
-        <input type="text" placeholder="Enter Your Email">
-      </div>
-      
-      <div class="input-box">
-        <span>Your Message</span>
-        <input type="text" placeholder="Enter Your Mesagge">
-      </div>
-
-      <div class="btn">Submit</div>
-    </form>
-  </section>
-
-  <footer>
-    <div class="col-left">
-      <div class="col-box">
-        <span><i class='bx bxs-location-plus'></i></span>
-        <span>11 April Legok - Conggeang</span>
-      </div>
-
-      <div class="col-box">
-        <span><i class='bx bxs-phone'></i></span>
-        <span>+62 888-0184-1550</span>
-      </div>
-
-      <div class="col-box">
-        <span><i class='bx bxs-envelope'></i></span>
-        <span>ameliaputrilatifah3@gmail.com</span>
-      </div>
-    </div>
-
-    <div class="col-right">
-      <span>About My Media</span>
-      <p>Follow me on social media</p>
-
-      <div class="social-icons">
-        <a href="https://www.instagram.com/iameliapl" target="_blank" class="social-link">
-          <i class='bx bxl-instagram-alt'></i>
-        </a>
-        <a href="https://linkedin.com/" target="_blank" class="social-link">
-          <i class='bx bxl-linkedin-square'></i>
-        </a>
-        <a href="https://github.com/" target="_blank" class="social-link">
-          <i class='bx bxl-github'></i>
-        </a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
