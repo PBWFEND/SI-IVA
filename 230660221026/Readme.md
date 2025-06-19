@@ -1,1 +1,0 @@
-Hello Nama saya wendi Feriyanda 
