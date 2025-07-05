@@ -18,4 +18,4 @@ Proyek ini bersifat pribadi dan dapat digunakan sebagai referensi non-komersial.
 
 ---
 
-> Dibuat dengan semangat dan kreativitas 💛
+> Dibuat dengan semangat dan kreativitas! 💛
