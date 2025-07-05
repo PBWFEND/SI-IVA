@@ -1,0 +1,16 @@
+.card {
+  background: linear-gradient(145deg, #ffffff, #f5f5f5);
+  border-radius: 16px;
+  padding: 24px;
+  margin: 20px auto;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 360px;
+  width: 100%;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
