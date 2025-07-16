@@ -1,0 +1,124 @@
+:root {
+    --pink: #ff70b8;
+    --soft-pink: #ffe6f0;
+    --dark-bg: #1a1a1a;
+    --light-bg: #ffffff;
+    --text-light: #000000;
+    --text-dark: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ffe6f0, #ffcce0);
+    color: var(--text-light);
+    transition: all 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: var(--dark-bg);
+    color: var(--text-dark);
+    background: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.profile-pic {
+    flex: 1 1 300px;
+    max-width: 320px;
+    position: relative;
+    z-index: 2;
+}
+
+.profile-pic img {
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.profile-pic img:hover {
+    transform: scale(1.03);
+}
+
+.content {
+    flex: 2 1 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.section {
+    padding: 1rem;
+    border: 2px solid var(--pink);
+    border-radius: 12px;
+    background-color: var(--soft-pink);
+    box-shadow: 0 8px 24px rgba(255, 112, 184, 0.3);
+    transition: transform 0.2s ease;
+}
+
+.section:hover {
+    transform: scale(1.02);
+}
+
+.section:active {
+    transform: scale(0.98);
+}
+
+.skills, .contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skills div, .contact div {
+    flex: 1 1 45%;
+}
+
+.organization ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.organization li::before {
+    content: '◉';
+    color: var(--pink);
+    margin-right: 0.5rem;
+}
+
+.dark-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: var(--pink);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills, .contact {
+        flex-direction: column;
+    }
+}
