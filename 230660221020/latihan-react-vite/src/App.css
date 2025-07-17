@@ -1,0 +1,33 @@
+.title {
+  color: #98FF98;       /* Pale mint */
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* App.css */
+
+body {
+  background-color: #F0FFF0; /* Pastel mint background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  color: #A3D9A5;      /* Pastel mint text */
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  color: #444;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
