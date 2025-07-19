@@ -1,0 +1,49 @@
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.kartu-profil {
+  background-color: #fff0f6;
+  border: 2px solid #f8c6da;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 380px;
+  animation: slideIn 0.6s ease forwards;
+  box-shadow: 0 4px 12px rgba(220, 38, 120, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.kartu-profil:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(220, 38, 120, 0.2);
+}
+
+.kartu-profil img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ffb6c1;
+  margin-bottom: 12px;
+}
+
+.kartu-profil h3 {
+  margin: 8px 0 4px;
+  color: #d63384;
+  font-size: 1.2rem;
+}
+
+.kartu-profil p {
+  margin: 0;
+  color: #5e2b4f;
+  font-weight: 500;
+}
