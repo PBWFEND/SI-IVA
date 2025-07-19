@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Profil Pengguna</title>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+    .kartu-profil {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 16px;
+      width: 220px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    .kartu-profil img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .kartu-profil h3 {
+      margin: 10px 0 5px;
+    }
+    .kartu-profil p {
+      margin: 5px 0;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    // Komponen Profil
+    function ProfilPengguna({ gambar, nama, hobi }) {
+      return (
+        <div className="kartu-profil">
+          <img src={gambar} alt={"Foto " + nama} />
+          <h3>{nama}</h3>
+          <p>Hobi: {hobi}</p>
+        </div>
+      );
+    }
+
+    // Komponen Utama
+    function App() {
+      return (
+        <>
+          <ProfilPengguna
+            gambar="https://media.licdn.com/dms/image/v2/D4D03AQELuahJ7htKDA/profile-displayphoto-shrink_400_400/B4DZaL1efFHQAg-/0/1746102774955?e=1756944000&v=beta&t=ZoDXKTtzqvD0AuWityBhIAsqZ1XkkaKpljflxEyE1iU"
+            nama="Dian Permana"
+            hobi="Olahraga"
+          />
+          <ProfilPengguna
+            gambar="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmA75G9hz9O7QjIU7bchBmTMxcZ4rr4pNeZQ&s"
+            nama="Kevin Sanjaya"
+            hobi="Badminton"
+          />
+          <ProfilPengguna
+            gambar="https://bentan.co.id/wp-content/uploads/2025/04/cristiano-ronaldo-03.jpg"
+            nama="Cristiano Ronaldo"
+            hobi="Sepak Bola"
+          />
+        </>
+      );
+    }
+
+    const container = document.getElementById('root');
+    const root = ReactDOM.createRoot(container);
+    root.render(<App />);
+  </script>
+</body>
+</html>
