@@ -1,3 +1,4 @@
 # Praktikum 
 
-ITira Azzahra
+Tira Azzahra
+230660221021
