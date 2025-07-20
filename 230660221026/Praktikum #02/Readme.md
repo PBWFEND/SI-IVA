@@ -1,1 +1,0 @@
-membuat syntaks hujan bintang hanya untuk mencoba java script

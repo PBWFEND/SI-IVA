@@ -1,1 +1,0 @@
-Menambahkan modul praktikum 2.md dan menambahkan gambar di folder snapshoot
