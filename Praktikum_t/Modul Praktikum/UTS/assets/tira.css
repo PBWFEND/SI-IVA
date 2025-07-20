@@ -1,23 +1,23 @@
 /* CSS Reset & Base Styles */
 :root {
-    --primary-color: #ff6fa3;      /* pink cerah */
-    --secondary-color: #e54b78;    /* pink agak gelap */
-    --dark-color: #2f2e41;         /* tetap gelap untuk teks */
-    --light-color: #f8f9fa;        /* putih terang */
-    --text-color: #333;            /* warna teks utama */
-    --text-light: #777;            /* teks ringan */
-    --bg-color: #fff;              /* background putih */
-    --card-bg: #fff;               /* background kartu */
+    --primary-color: #ff6fa3;      
+    --secondary-color: #e54b78;    
+    --dark-color: #2f2e41;         
+    --light-color: #f8f9fa;        
+    --text-color: #333;            
+    --text-light: #777;           
+    --bg-color: #fff;              
+    --card-bg: #fff;               
     --transition: all 0.3s ease;
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --border-radius: 8px;
 }
 
 .dark-mode {
-    --primary-color: #ff85b1;      /* pink muda */
-    --secondary-color: #e76e93;    /* pink agak gelap */
-    --dark-color: #f8f9fa;         /* warna terang untuk dark mode */
-    --light-color: #2f2e41;        /* gelap untuk teks */
+    --primary-color: #ff85b1;     
+    --secondary-color: #e76e93;    
+    --dark-color: #f8f9fa;        
+    --light-color: #2f2e41;        
     --text-color: #f8f9fa;
     --text-light: #aaa;
     --bg-color: #1a1a2e;
