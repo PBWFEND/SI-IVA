@@ -43,7 +43,7 @@
 .card {
   padding: 2em;
   margin: 1em;
-  background-color: white;
+  background-color: rgb(234, 193, 193);
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(255, 105, 180, 0.1);
   transition: all 0.3s ease;
