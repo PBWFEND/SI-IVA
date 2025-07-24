@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kuda Berlari</title>
+  <style>
+    body {
+      background: #cce7ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .horse {
+      width: 150px; /* Ukuran frame tunggal */
+      height: 100px;
+      background: url('horse_sprite.png') left center;
+      background-size: 900px 100px; /* total 6 frame * 150px */
+      animation: run 1s steps(6) infinite, moveRight 5s linear infinite;
+      position: relative;
+    }
+
+    @keyframes run {
+      from { background-position-x: 0; }
+      to { background-position-x: -900px; }
+    }
+
+    @keyframes moveRight {
+      0% { transform: translateX(-200px); }
+      100% { transform: translateX(100vw); }
+    }
+  </style>
+</head>
+<body>
+  <div class="horse"></div>
+</body>
+</html>
