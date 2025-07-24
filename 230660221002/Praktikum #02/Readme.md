@@ -1,4 +1,1 @@
-# Praktikum 02
-
-TIRA AZZAHRA
-230660221021
+Menambahkan Modul praktikum 2 dan menambahkan gambar serta merevisi praktikum2.md

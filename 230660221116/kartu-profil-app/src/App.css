@@ -1,0 +1,30 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #ffe4ec, #ffd6e0);
+  color: #5e2b4f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Judul halaman */
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #d63384;
+}
+
+/* Container profil */
+.container {
+  display: flex;
+  flex-direction: column; /* membuat kartu tersusun vertikal */
+  gap: 24px;              /* jarak antar kartu */
+  align-items: center;    /* posisikan kartu ke tengah secara horizontal */
+}

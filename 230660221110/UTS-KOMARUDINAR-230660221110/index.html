@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya - Komarudin AR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Komarudin AR</a>
+            <ul class="nav-links">
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Halo, saya Komarudin Anshar Rahendra</h1>
+                <p>Seorang mahasiswa yang bersemangat dalam IT .</p>
+                <a href="#portfolio" class="btn primary-btn">Lihat Portofolio</a>
+            </div>
+            <div class="hero-image">
+                <img src="img/me.jpg" alt="Foto Profil Anda">
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>Tentang Saya</h2>
+            <p>Hallo,nama saya Komarudin, saya mahasiswa aktif semester 4 yang berkuliah di Universitas sebelah april, saya mengambil fakultas teknologi informasi program studi sistem informasi yang sedang menjalani pendidikan starata 1 (S1). 
+                Keterampilan saya adalah mengeksekusi perencanaan yang sudah matang karena akan lebih mudah untuk menentukan hasil yang sempurna. 
+                Semenjak saya memulai kuliah saya memutuskan untuk bergabung organisasi himpunan mahasiswa untuk menambah relasi dan juga untuk melatih public speaking. 
+                Selain kegiatan berkuliah saya juga berjualan pada setiap hari minggu, karena dari mulai smp saya suka diajak oleh orang tua saya pada setiap minggu nya, maupun hari libur sekolah. 
+                Visi hidup saya untuk membuka sebuah bisnis karena saya ingin menerapkan ilmu ataupun hasil yang di dapat dari perkuliahan dengan menerapkannya ke dalam bisnis. 
+                Cara untuk mewujudkan nya yaitu dengan kerja sama dari beberapa pihak yang bersedia untuk menjalin kerja sama karena menurut saya untuk mewujudkan semua itu sendirian sangat mustahil dengan keberhasilan yang sempurna, maka harus ada campur tangan orang lain supaya dapat memperluas/mengembangkan  dari bisnis tersebut.</p>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Keahlian</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                 </div>
+                    <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Canva</h3>
+                    </div>
+                    <div class="skill-item">
+                    <i class="fas fa-file-word"></i>
+                    <h3>Microsoft Word</h3>
+            </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <h2>Portofolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="img/komar-1.jpg" alt="Proyek 1">
+                    <h3>Karya Film Pndek </h3>
+                    <p>"Jeda Diri" kemungkinan besar akan menjadi meditasi sinematik tentang pentingnya keseimbangan hidup, kesadaran diri, dan keberanian untuk melambat demi kesejahteraan yang lebih besar. Film ini bisa menjadi pengingat bahwa terkadang, hal paling produktif yang bisa kita lakukan adalah berhenti sejenak.</p>
+                    <a href="https://www.youtube.com/watch?v=Mw3NLL2eloQ" target="_blank" class="btn small-btn">Lihat Proyek</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/T-Shirt.png" alt="Proyek 2">
+                    <h3>T-Shirt</h3>
+                    <p>T-Shirt unisex yang sesuai untuk ngampus dan juga nongkrong bareng kawa-kawan yang sangat nyaman di pakai sehari-hari dengan bahan cotton combad 24s yang premium.</p>
+                    <a href="https://www.canva.com/design/DAGf10xosS0/OVau0S3rlJ1usLkUlYqW_g/edit?utm_content=DAGf10xosS0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="btn small-btn">Lihat Proyek</a>
+                </div>
+                </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Kontak</h2>
+            <p>Jangan ragu untuk menghubungi saya!</p>
+            <form id="contact-form" class="contact-form">
+    <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+    <input type="email" id="email" name="email" placeholder="Email Anda" required>
+    <textarea id="message" name="message" placeholder="Tulis pesan Anda di sini..." required></textarea>
+    <button type="submit" class="btn primary-btn">Kirim Pesan</button>
+</form>
+
+<!-- Overlay Loading -->
+<div class="overlay-loading" id="overlay-loading">
+    <div class="spinner"></div>
+    <p>Mengirim pesan...</p>
+</div>
+            <div class="contact-links">
+                <a href="mailto: komarudianshar19@gmail.com" class="contact-btn"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://wa.me/6282219442544" target="_blank" class="contact-btn"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                <a href="https://www.instagram.com/hunterclown19?igsh=OGhjMXQxc2x2M3Np" target="_blank" class="contact-btn"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://music.youtube.com/playlist?list=PL7U0GMtIRCTb1Be1-GEa7uaxnkLtUapG1" class="contact-btn"><i class="fas fa-music"></i> Playlist</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Komarudin Anshar Rahendra. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top-btn" title="Kembali ke atas">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

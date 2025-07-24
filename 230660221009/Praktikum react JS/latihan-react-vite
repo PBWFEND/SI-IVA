@@ -1,0 +1,17 @@
+latihan-react-vite/
+├── node_modules/     # Berisi semua library/paket pihak ketiga
+├── public/           # Aset statis (gambar, ikon) yang tidak diproses oleh Vite
+│   └── vite.svg
+├── src/              # DIREKTORI UTAMA TEMPAT KITA BEKERJA
+│   ├── assets/       # Aset yang perlu diproses (e.g., logo React)
+│   │   └── react.svg
+│   ├── App.css       # File styling khusus untuk komponen App
+│   ├── App.jsx       # Komponen utama aplikasi (UI dan logika)
+│   ├── index.css     # File styling global untuk seluruh aplikasi
+│   └── main.jsx      # Titik masuk (entry point) aplikasi React
+├── .gitignore        # Daftar file/folder yang akan diabaikan oleh Git
+├── index.html        # Kerangka HTML utama. React akan 'disuntikkan' ke sini
+├── package.json      # Metadata proyek & daftar dependencies
+├── package-lock.json # Merekam versi pasti dari setiap paket yang diinstal
+├── README.md         # Petunjuk penggunaan proyek
+└── vite.config.js    # File konfigurasi untuk Vite

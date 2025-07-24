@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>💖 GFRIEND Profile Cards 💖</title>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #ffe6f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ffb6c1;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 24px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 30px;
+      flex-wrap: wrap;
+    }
+
+    .kartu-profil {
+      background-color: #fff0f5;
+      border: 3px dashed #ff69b4;
+      border-radius: 20px;
+      padding: 20px;
+      width: 230px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .kartu-profil:hover {
+      transform: scale(1.05);
+    }
+
+    .kartu-profil img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid #ff69b4;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .kartu-profil h3 {
+      color: #d63384;
+      margin-bottom: 5px;
+    }
+
+    .kartu-profil p {
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🌸💖 GFRIEND MEMBER PROFILE 💖🌸<br>
+    ☁️✨ React Cards Pink Lucu ✨💗
+  </header>
+
+  <div id="root"></div>
+
+  <script type="text/babel">
+    function ProfilPengguna({ gambar, nama, hobi }) {
+      return (
+        <div className="kartu-profil">
+          <img src={gambar} alt={"Foto " + nama} />
+          <h3>🎀 {nama}</h3>
+          <p>💖 Hobi: {hobi}</p>
+        </div>
+      );
+    }
+
+    function App() {
+      return (
+        <div className="container">
+          <ProfilPengguna 
+   gambar="https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=400"
+  nama="Sowon"
+  hobi="Main game 👾 dan jadi model 🧥" 
+/>
+
+<ProfilPengguna 
+  gambar="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400"
+  nama="Yuju"
+  hobi="Menulis lagu ✍️ dan menyanyi 🎤" 
+/>
+
+<ProfilPengguna 
+  gambar="https://images.unsplash.com/photo-1554151228-14d9def656e4?w=400"
+  nama="SinB"
+  hobi="Dance 💃 dan fotografi 📸" 
+/>
+
+        </div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+</html>
